@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:contentPadding="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:background="@drawable/bg_login_email">
+
+        <TextView
+            android:id="@+id/tv_balloon_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="TITLE"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_ballon_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100m"
+            android:textColor="@color/purple_500"
+            android:textSize="14sp"
+            android:layout_marginLeft="4dp"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
