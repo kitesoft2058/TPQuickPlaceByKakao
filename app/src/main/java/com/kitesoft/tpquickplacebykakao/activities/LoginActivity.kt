@@ -128,6 +128,7 @@ class LoginActivity : AppCompatActivity() {
         // 아래 ServerClientId 설정값.
         //a. GCP Console에서 사용자 인증 정보 페이지를 엽니다.
         //b. 웹 애플리케이션 유형의 클라이언트 ID가 백엔드 서버의 OAuth 2.0 클라이언트 ID입니다.
+        // [ 추후 release 했을때. firebase에 play store sha-1 추가 필요.]
 
         //구글 로그인 옵션객체 생성 - Builder 이용
         val signInOptions: GoogleSignInOptions= GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
